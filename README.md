@@ -1,16 +1,37 @@
-# React + Vite
+# 🔍 CodeCritic - AI Code Review Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CodeCritic is a modern, responsive React frontend that provides instant AI-powered feedback on your code. It features a sleek dark-mode interface, animated UI components, and connects to a dual-backend architecture (Java + Python LLM) to analyze code quality and suggest fixes.
 
-Currently, two official plugins are available:
+## 🔗 Related Repositories
+This frontend is part of a larger full-stack application. You can find the source code for the backends here:
+* **[Java Routing Backend](https://github.com/BikiBaishya03/codeCriticBackend)** - Handles API routing and business logic.
+* **[Python AI Backend](https://github.com/BikiBaishya03/CodeCriticPython)** - Handles the LLM inference and code analysis.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+* **Sleek Dark UI:** A premium, modern dark mode interface with soft elevation shadows and gradients.
+* **Animated Feedback:** Features a custom SVG Score Ring that dynamically animates based on the AI's rating.
+* **Skeleton Loaders:** Smooth loading states prevent layout shifts while waiting for the AI response.
+* **Responsive Design:** Fully responsive grid layout that adapts flawlessly to desktop, tablet, and mobile screens.
+* **Quick Actions:** Keyboard shortcuts (`Ctrl + Enter`) for rapid submissions and one-click "Copy" for suggested fixes.
 
-## React Compiler
+## 🛠️ Tech Stack
+* **Frontend:** React (JSX), pure standard CSS (No external CSS frameworks required)
+* **Primary Backend:** Java (Spring Boot)
+* **AI Backend:** Python (FastAPI/Flask)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to get the frontend running on your local machine.
+
+### 1. Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### 2. Installation
+Clone the repository and install the dependencies:
+
+```bash
+git clone [https://github.com/yourusername/codecritic-frontend.git](https://github.com/BikiBaishya03/CodeCriticFrontend)
+cd CodeCriticFrontend
+npm install
